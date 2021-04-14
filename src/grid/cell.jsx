@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Input } from 'antd';
 const EditableCell = ({
     value: initialValue,
     row,
@@ -48,7 +48,7 @@ const EditableCell = ({
     )
     return (
         <div className='customCell'>
-            {focusId === focusCell ? <div className='cellWrapper'><input autoFocus value={value} onChange={onChange} onBlur={onBlur} /> </div> : renderCell()}
+            {focusId === focusCell ? <div className='cellWrapper'><Input autoFocus value={value} onChange={onChange} onBlur={onBlur} /> </div> : renderCell()}
         </div>
     )
 }

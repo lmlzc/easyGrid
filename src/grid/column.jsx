@@ -4,6 +4,7 @@ import { useDrag, useDrop } from 'react-dnd'
 const DND_ITEM_TYPE = 'col'
 const style = {
     cursor: 'move',
+    width:'200px'
 };
 export default function Column({ column, index, moveCol }) {
     const dropRef = React.useRef(null)
