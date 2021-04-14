@@ -2,6 +2,7 @@
   "name": "easygird",
   "version": "0.1.0",
   "private": true,
+  "homepage": "",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -10,7 +11,7 @@
     "bootstrap": "^4.6.0",
     "immutability-helper": "^3.1.1",
     "namor": "^2.0.2",
-    "node-sass": "^5.0.0",
+    "node-sass": "4.14.0",
     "react": "^17.0.2",
     "react-dnd": "^14.0.2",
     "react-dnd-html5-backend": "^14.0.0",
